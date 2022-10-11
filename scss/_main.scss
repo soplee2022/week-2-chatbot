@@ -1,0 +1,182 @@
+// all pages
+body{
+    font-family: $font-en;
+    font-family: $font-TC;
+}
+
+*{
+    // border: solid black 1px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+// often use
+
+.p-0{
+    padding: 0;
+}
+
+.m-0{
+    margin: 0;
+}
+
+// index
+.row, .col{
+    padding: 0;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+p{
+    margin: 0;
+}
+// header
+.header{
+    height: 470px;
+    background-color: $blue-header;
+    border-radius: 0 0 0 33rem;
+    z-index: -1;
+}
+.navbar{
+    max-width: 1088px;
+    margin: 24px auto;
+    z-index: 1;
+
+}
+.logo{
+    @include box-size(218px,40px);
+}
+.pay-btn{
+    background-color: $red-btn;
+    @include circle-btn(128px,40px);
+    color:$white-bg
+}
+.header-box{
+    max-width: 1088px;
+    margin: 0 auto;
+}
+
+.title-1{
+    font-size: $font-size-xxxl;
+    font-weight: 800;
+    color: $black-text;
+    margin-top: 88px;
+}
+.title-2{
+    font-size: $font-size-s;
+    color: $black-text;
+    margin-top: 16px;
+}
+.move-banner{
+    position: relative;
+    max-width: 1600px;
+    background-color: aqua;
+}
+.header-banner{
+    max-width: 300px;
+    background-size: contain;
+    position: relative;
+    right: -280px;
+    // top: -310px;
+}
+.header-img{
+    // max-width: 885px;
+    z-index: 0;
+    // position: relative;
+    background-color: orange;
+
+
+}
+// footer
+.footer{
+    background-color: $gray-footer;
+
+}
+.footer-text{
+    font-size: $font-size-s;
+    margin: 16px 0;
+}
+
+// describe
+.describe{
+    max-width: 1088px;
+    margin: 0 auto;
+}
+.title{
+    font-size: $font-size-xxl;
+    color: $black-text;
+    font-weight: 800;
+}
+.pay-btns{
+    @include circle-btn(130px,50px);
+    background-color: $white-bg;
+    border: solid $blue-btn 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px 16px;
+    p{
+        font-size: $font-size-m;
+        color: $blue-btn;
+    }
+    &:hover{
+        background-color: $blue-btn;
+        p{
+            color:$white-bg;
+        }
+    }
+}
+// cards
+.plan{
+    border-radius: 12px;
+    border: solid $gray-border 1px;
+    box-shadow: 0px 2px 10px #00000014;
+}
+.plan-title{
+    border-bottom: solid $gray-line 1px;
+    padding: 20px 0;
+    p{
+        font-size: $font-size-l;
+        font-weight: 800;
+        color: $black-text
+    }
+}
+.plan-describe{
+    margin: 20px 0;
+    padding: 5px 0;
+    p{
+        font-size: $font-size-s;
+        color: $black-text
+    }
+}
+.plan-price-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-size: $font-size-xl;
+        color: $black-text
+    }
+}
+.plan-price-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $gray-footer;
+    border-radius: 12px;
+    @include box-size(169px,108px);
+    p{
+        font-size: $font-size-xs;
+        // color: $black-text;
+    }
+    span{
+        font-size: $font-size-xxl;
+        color: $blue-btn;
+    }
+}
+.black-font{
+    color: $black-text;
+}

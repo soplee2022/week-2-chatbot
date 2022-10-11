@@ -1,0 +1,27 @@
+// box size
+
+@mixin box-size($w,$h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin circle-btn($w,$h) {
+    width: $w;
+    height: $h;
+    border-radius: 33rem;
+}
+
+
+// RWD size
+
+@mixin pad {
+    @media (max-width:786px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width:568px) {
+        @content;
+    }
+}

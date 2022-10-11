@@ -1,0 +1,191 @@
+body {
+  font-family: "Comfortaa", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.row, .col {
+  padding: 0;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  height: 470px;
+  background-color: #F7F9FD;
+  border-radius: 0 0 0 33rem;
+  z-index: -1;
+}
+
+.navbar {
+  max-width: 1088px;
+  margin: 24px auto;
+  z-index: 1;
+}
+
+.logo {
+  width: 218px;
+  height: 40px;
+}
+
+.pay-btn {
+  background-color: #FF5D50;
+  width: 128px;
+  height: 40px;
+  border-radius: 33rem;
+  color: #FFFFFF;
+}
+
+.header-box {
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+.title-1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #221E1F;
+  margin-top: 88px;
+}
+
+.title-2 {
+  font-size: 16px;
+  color: #221E1F;
+  margin-top: 16px;
+}
+
+.move-banner {
+  position: relative;
+  max-width: 1600px;
+  background-color: aqua;
+}
+
+.header-banner {
+  max-width: 300px;
+  background-size: contain;
+  position: relative;
+  right: -280px;
+}
+
+.header-img {
+  z-index: 0;
+  background-color: orange;
+}
+
+.footer {
+  background-color: #F5F5F5;
+}
+
+.footer-text {
+  font-size: 16px;
+  margin: 16px 0;
+}
+
+.describe {
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 32px;
+  color: #221E1F;
+  font-weight: 800;
+}
+
+.pay-btns {
+  width: 130px;
+  height: 50px;
+  border-radius: 33rem;
+  background-color: #FFFFFF;
+  border: solid #56C4C5 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 48px 16px;
+}
+.pay-btns p {
+  font-size: 18px;
+  color: #56C4C5;
+}
+.pay-btns:hover {
+  background-color: #56C4C5;
+}
+.pay-btns:hover p {
+  color: #FFFFFF;
+}
+
+.plan {
+  border-radius: 12px;
+  border: solid rgba(0, 0, 0, 0.0784313725) 1px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
+}
+
+.plan-title {
+  border-bottom: solid #DDDDDD 1px;
+  padding: 20px 0;
+}
+.plan-title p {
+  font-size: 24px;
+  font-weight: 800;
+  color: #221E1F;
+}
+
+.plan-describe {
+  margin: 20px 0;
+  padding: 5px 0;
+}
+.plan-describe p {
+  font-size: 16px;
+  color: #221E1F;
+}
+
+.plan-price-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plan-price-text p {
+  font-size: 29px;
+  color: #221E1F;
+}
+
+.plan-price-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5;
+  border-radius: 12px;
+  width: 169px;
+  height: 108px;
+}
+.plan-price-box p {
+  font-size: 12px;
+}
+.plan-price-box span {
+  font-size: 32px;
+  color: #56C4C5;
+}
+
+.black-font {
+  color: #221E1F;
+}/*# sourceMappingURL=all.css.map */
