@@ -1,26 +1,4 @@
-// header
-.header{
-    height: 470px;
-    background-color: $blue-header;
-    border-radius: 0 0 0 33rem;
-}
-.navbar{
-    max-width: 1088px;
-    margin: 24px auto;
-    z-index: 99;
-}
-.logo{
-    @include box-size(218px,40px);
-}
-.pay-btn{
-    background-color: $red-btn;
-    @include circle-btn(128px,40px);
-    color:$white-bg
-}
-.header-box{
-    max-width: 1088px;
-    margin: 0 auto;
-}
+// title & banner
 
 .title-1{
     font-size: $font-size-xxxl;
@@ -45,8 +23,6 @@
     background-size: contain;
     position: absolute;
     top: -480px;
-    z-index: 0;
-    // background-color: orange;
 }
 
 // describe

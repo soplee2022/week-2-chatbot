@@ -34,6 +34,9 @@ p {
   display: block;
   text-decoration: none;
 }
+.nav-a:hover {
+  color: #FF5D50;
+}
 
 .header {
   height: 470px;
@@ -58,6 +61,11 @@ p {
   height: 40px;
   border-radius: 33rem;
   color: #FFFFFF;
+}
+
+.pay-btn:hover {
+  background-color: #FFFFFF;
+  border: solid #FF5D50 1px;
 }
 
 .header-box {
@@ -91,7 +99,6 @@ p {
   background-size: contain;
   position: absolute;
   top: -480px;
-  z-index: 0;
 }
 
 .describe {
