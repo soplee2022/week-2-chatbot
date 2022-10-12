@@ -11,6 +11,26 @@
     border-radius: 33rem;
 }
 
+// often use
+@mixin put-div-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin before-icon-img($w,$h) {
+    content: '';
+    width: $w;
+    height: $h;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    
+    @content;
+    // add background-img(url)
+    // add position(margin-right: 10px)
+}
 
 // RWD size
 

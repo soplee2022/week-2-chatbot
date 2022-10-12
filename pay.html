@@ -27,10 +27,10 @@
             <!-- navbar -->
             <div class="row justify-content-between navbar">
                 <div class="col-3 p-0">
-                    <a href=""><img class="logo" src="/chatTalker_images/logo.png" alt="chatTalker-logo"></a>
+                    <a href="/index.html"><img class="logo" src="/chatTalker_images/logo.png" alt="chatTalker-logo"></a>
                 </div>
                 <div class="col-3 row align-items-center m-0 pay-btn">
-                    <p class="text-center m-0">方案費用</p>
+                    <a href="/pay.html"><p class="text-center m-0">方案費用</p></a>
                 </div>
             </div>
             <!-- title-->
@@ -46,14 +46,15 @@
             </div>
         </div>
         <!-- banner -->
-        <div class="p-0 align-items-end move-banner">
-            <img class="p-0 header-banner header-img" src="/chatTalker_images/banner.svg" alt="">
+        <div class="p-0 move-banner">
+            <img class="p-0 header-banner" src="/chatTalker_images/banner.svg" alt="">
         </div>
-            
+        <!-- plan describe -->
         <div class="p-0 describe">
             <div class="text-center title">
                 <p>彈性選擇，提供您選擇最適合的方案</p>
             </div>
+            <!-- plan pay btns -->
             <div class="row m-0 justify-content-center bnts">
                 <div class="pay-btns">
                     <p>10000位</p>
@@ -71,8 +72,10 @@
                     <p>>25000位</p>
                 </div>
             </div>
-            <div class="cards">
-                <div class="row m-0 justify-content-center plan">
+            <!-- plan cards*2 -->
+            <div class="row m-0 justify-content-around cards">
+                <!-- cards 基本版 -->
+                <div class="col row m-0 justify-content-center plan">
                     <div class="text-center plan-title">
                         <p>基本版</p>
                     </div>
@@ -80,21 +83,94 @@
                         <p>提供中小企業最必要的功能</p>
                         <p>完整建立分眾已達到精準的行銷自動化</p>
                     </div>
-                    <div class="row m-0 plan-price">
-                        <div class="plan-price-box">
+                    <!-- gray box*2 -->
+                    <div class="row m-0 justify-content-center plan-price">
+                        <div class="col plan-price-box">
                             <p class="black-font">訂閱戶數</p>
-                            <p class="black-font"><span>10000</span> 位</p>
+                            <p class="blue-font"><span class="blue-font-big">10000</span> 位</p>
                         </div>
-                        <div class="plan-price-text">
+                        <div class="col-2 plan-price-text">
                             <p>=</p>
                         </div>
-                        <div class="plan-price-box"></div>
+                        <div class="col plan-price-box">
+                            <p class="black-font">試算每月的費用</p>
+                            <p class="black-font"><span class="black-font-big">600</span> TWD</p>
+                        </div>
+                    </div>
+                    <!-- plan list -->
+                    <div class="plan-list">
+                        <p class="yellow-icon">支援 Messenger / Instagram 或 LINE 渠道</p>
+                        <p class="yellow-icon">10 個進階套件</p>
+                        <p class="yellow-icon">可設定 50 種分眾標籤</p>
+                        <p class="yellow-icon">客服人機轉接</p>
+                    </div>
+                    <!-- plan btn -->
+                    <div class="plan-btn">
+                        <p>立即體驗</p>
                     </div>
                 </div>
-                <div class="plan"></div>
+                <!-- cards 標準版 -->
+                <div class="col row m-0 justify-content-center plan">
+                    <div class="text-center plan-title">
+                        <p>標準版</p>
+                    </div>
+                    <div class="text-center plan-describe">
+                        <p>建立企業流量池，全通路數據整合與交換</p>
+                        <p>高可靠性服務</p>
+                    </div>
+                    <!-- gray box*2 -->
+                    <div class="row m-0 justify-content-center plan-price">
+                        <div class="col plan-price-box">
+                            <p class="black-font">訂閱戶數</p>
+                            <p class="blue-font"><span class="blue-font-big">10000</span> 位</p>
+                        </div>
+                        <div class="col-2 plan-price-text">
+                            <p>=</p>
+                        </div>
+                        <div class="col plan-price-box">
+                            <p class="black-font">試算每月的費用</p>
+                            <p class="black-font"><span class="black-font-big">1600</span> TWD</p>
+                        </div>
+                    </div>
+                    <!-- plan list -->
+                    <div class="plan-list">
+                        <p class="yellow-icon">支援 Messenger / Instagram 或 LINE 渠道</p>
+                        <p class="yellow-icon">20 個進階及行銷互動套件</p>
+                        <p class="yellow-icon">可設定 500 種分眾標籤</p>
+                        <p class="yellow-icon">客服人機轉接 + 自動指派專員處理</p>
+                    </div>
+                    <!-- plan btn -->
+                    <div class="plan-btn">
+                        <p>立即體驗</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="QA">QA-test</div>
+        <!-- Q&A -->
+        <div class="q-and-a">
+            <div class="text-center title">
+                <p>常見問題</p>
+            </div>
+            <!-- Q&A list -->
+            <div class="q-list">
+                <div class="row m-0 justify-content-between question">
+                    <p class="col">我要怎麼變更方案？</p>
+                    <img class="col-1 q-icon" src="/chatTalker_images/icon_plus.svg" alt="">
+                    <p class="answer">請聯絡您的業務專員修改訂閱方案，我們將為您進行變更流程。</p>
+                </div>
+                <div class="row m-0 justify-content-between question">
+                    <p class="col">如果我沒有 LINE 官方帳號怎麼辦？</p>
+                    <img class="col-1 q-icon" src="/chatTalker_images/icon_plus.svg" alt="">
+                    <p class="answer">沒關係的，只要您是我們任何一個方案的夥伴，我們的專員可以協助辦理哦！</p>
+                </div>
+                <div class="row m-0 justify-content-between question">
+                    <p class="col">非上班日有客服支援嗎？</p>
+                    <img class="col-1 q-icon" src="/chatTalker_images/icon_plus.svg" alt="">
+                    <p class="answer">當然喔！我們錢都收了，不會拋棄你的！</p>
+                    <p class="answer">請您直接來我們公司，我們假日也都在辦公室。</p>
+                </div>
+            </div>
+        </div>
 
         <!-- footer -->
         <div class="row align-items-center footer m-0">
