@@ -3,12 +3,11 @@
     height: 470px;
     background-color: $blue-header;
     border-radius: 0 0 0 33rem;
-    z-index: -2;
 }
 .navbar{
     max-width: 1088px;
     margin: 24px auto;
-    // z-index: 99;
+    z-index: 99;
 }
 .logo{
     @include box-size(218px,40px);
