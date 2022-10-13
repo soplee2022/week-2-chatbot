@@ -29,13 +29,23 @@ p {
   margin: 0;
 }
 
-.nav-a {
+a {
   color: #FFFFFF;
   display: block;
   text-decoration: none;
 }
-.nav-a:hover {
+a:hover {
   color: #FF5D50;
+}
+
+.box-shadow {
+  border-radius: 12px;
+  border: solid rgba(0, 0, 0, 0.0784313725) 1px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
@@ -294,6 +304,225 @@ p {
   font-size: 16px;
   color: #747474;
   margin: 5px 0;
+}
+
+.index-title-1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #221E1F;
+}
+
+.index-title-2 {
+  font-size: 16px;
+  color: #221E1F;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.blue {
+  color: #56C4C5;
+}
+
+.index-title-3 {
+  font-size: 16px;
+  color: #221E1F;
+  margin-top: 8px;
+}
+
+.index-all-text {
+  padding-top: 158px;
+}
+
+.index-img {
+  max-width: 532px;
+}
+
+.move-banner {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  max-width: 1600px;
+}
+
+.blue-ball-1 {
+  width: 360px;
+  height: 360px;
+}
+
+.index-header-banner {
+  max-width: 850px;
+  background-size: contain;
+  position: absolute;
+  top: -630px;
+  z-index: -2;
+}
+
+.medias, .roles, .comments {
+  max-width: 1088px;
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+.medias, .comments {
+  margin-top: 100px;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  margin: 48px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card .plan-title {
+  border: none;
+}
+.card .icon {
+  width: 90px;
+  height: 90px;
+}
+.card .answer {
+  margin: 0;
+}
+
+.role-text {
+  font-size: 20px;
+  color: #221E1F;
+  margin-top: 16px;
+}
+
+.roles-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 13px 13px 0 0;
+}
+
+.roles .blue-font {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 16px 0;
+}
+.roles .black-font {
+  font-size: 16px;
+  color: #221E1F;
+}
+
+.roles-4box {
+  padding-bottom: 48px;
+  max-width: 260px;
+  margin-top: 48px;
+  margin-left: 16px;
+}
+
+.points {
+  max-width: 1088px;
+  margin-top: 100px;
+}
+.points .role-text {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.point-text {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.points-margin {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.point-img {
+  border-radius: 33rem;
+  width: 86px;
+  height: 86px;
+  margin-left: -50px;
+}
+.point-img img {
+  width: 52px;
+  height: 52px;
+}
+
+.point-box4 {
+  padding: 0 32px;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  margin: 28px 14px;
+  max-width: 230px;
+}
+
+.points-padding {
+  padding-left: 100px;
+}
+
+.comment-text {
+  border-bottom: solid #DDDDDD 1px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.black-text-bold {
+  font-size: 16px;
+  color: #221E1F;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.comments-img {
+  border-radius: 33rem;
+  width: 80px;
+  height: 80px;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+.comments-img img {
+  width: 80px;
+  height: 80 px;
+  border-radius: 33rem;
+}
+
+.comment-box {
+  margin-top: 100px;
+  max-width: 352px;
+  padding: 32px;
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+.comment-name, .comment-star {
+  width: 286px;
+}
+
+.comment-box-margin {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.comment-star {
+  margin-left: 380px;
+  margin-top: -20px;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+}
+
+.action {
+  background-image: url(/chatTalker_images/home_footer.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 660px;
+  margin-bottom: 100px;
+}
+.action .title {
+  margin-top: 400px;
 }
 
 .footer {

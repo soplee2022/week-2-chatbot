@@ -32,11 +32,18 @@ img{
 p{
     margin: 0;
 }
-.nav-a{
+a{
     color: $white-bg;
     display: block;
     text-decoration:none;
     &:hover{
         color: $red-btn;
     }
+}
+
+.box-shadow{
+    border-radius: 12px;
+    border: solid $gray-border 1px;
+    box-shadow: 0px 2px 10px #00000014;
+    @include put-div-center;
 }
