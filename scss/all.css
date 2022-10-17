@@ -344,6 +344,20 @@ a:hover {
   max-width: 1600px;
 }
 
+.index-header {
+  position: relative;
+  padding: 0;
+}
+
+.blue-ball {
+  background-image: url(/chatTalker_images/ball01.svg);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 360px;
+  background-position: top right;
+  position: absolute;
+}
+
 .blue-ball-1 {
   width: 360px;
   height: 360px;
