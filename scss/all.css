@@ -350,7 +350,7 @@ a:hover {
 }
 
 .blue-ball {
-  background-image: url(/chatTalker_images/ball01.svg);
+  background-image: url(./chatTalker_images/ball01.svg);
   background-repeat: no-repeat;
   width: 160px;
   height: 360px;
@@ -529,7 +529,7 @@ a:hover {
 }
 
 .action {
-  background-image: url(/chatTalker_images/home_footer.svg);
+  background-image: url(./chatTalker_images/home_footer.svg);
   background-repeat: repeat-x;
   background-position: center;
   height: 660px;
