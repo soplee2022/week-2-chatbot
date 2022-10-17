@@ -37,7 +37,7 @@
     position: relative;
     padding: 0;
 }
-.blue-ball{
+.blue-ball-1{
     background-image: url(../chatTalker_images/ball01.svg);
     background-repeat: no-repeat;
     width: 160px;
@@ -45,16 +45,66 @@
     background-position: top right;
     position: absolute;
 }
-.blue-ball-1{
-    @include box-size(360px,360px);
-    // padding-right: -200px;
+@include mobile{
+    .blue-ball-1{
+        width: 80px;
+        background-size: 160px;
+        top: 900px
+    }
 }
+
+.blue-ball-2{
+    background-image: url(../chatTalker_images/ball02.svg);
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 320px;
+    background-position: top left;
+    position: absolute;
+    right: 0;
+    top: 1600px;
+    z-index: -99;
+}
+
+.yellow-ball{
+    background-image: url(../chatTalker_images/ball03.svg);
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    background-position:  top left;
+    position: absolute;
+    left: 100px;
+    top: 2700px;
+    z-index: -99;
+}
+
 .index-header-banner{
     max-width: 850px;
     background-size: contain;
     position: absolute;
     top: -630px;
     z-index: -2;
+}
+@include mobile{
+    .index-all-text{
+        width: 100%;
+        padding-top: 0;
+        padding-left: 20px;
+    }
+    .index-img{
+        width: 100%;
+        padding: 30px;
+        background-image: url(/chatTalker_images/bg_home_sm.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .index-header-banner{
+        display: none;
+    }
+    .header-box{
+        .row{
+            flex-direction: column;
+        }
+    }
 }
 
 // medias
@@ -81,6 +131,13 @@
     }
     @include put-div-center
     
+}
+@include mobile{
+    .medias{
+        .row{
+            flex-direction: column;
+        }
+    }
 }
 
 // roles
@@ -110,6 +167,13 @@
     max-width: 260px;
     margin-top: 48px;
     margin-left: 16px;
+}
+@include mobile{
+    .roles{
+        .row{
+            flex-direction: column;
+        }
+    }
 }
 
 // points
@@ -150,7 +214,24 @@
 .points-padding{
     padding-left: 100px;
 }
-
+@include mobile{
+    .points{
+            flex-direction: column-reverse;
+    }
+    .row-cols-2{
+        width: 100%;
+    }
+    .point-box4{
+        @include box-size(230px,280px);
+    }
+    .points-padding{
+        padding: 0;
+        text-align: center;
+    }
+    .plan-btn{
+        margin: 0 auto;
+    }
+}
 // comments
 .comment-text{
     border-bottom: solid $gray-line 1px;

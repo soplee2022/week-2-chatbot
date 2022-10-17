@@ -1,6 +1,7 @@
 body {
   font-family: "Comfortaa", cursive;
   font-family: "Noto Sans TC", sans-serif;
+  position: relative;
 }
 
 img {
@@ -58,10 +59,17 @@ a:hover {
   max-width: 1088px;
   margin: 24px auto;
   z-index: 99;
+  padding-bottom: 15px;
+  padding-right: 15px;
 }
 
+@media (max-width: 568px) {
+  .navbar {
+    border-bottom: 1px solid #FFD153;
+  }
+}
 .logo {
-  width: 218px;
+  max-width: 218px;
   height: 40px;
 }
 
@@ -349,7 +357,7 @@ a:hover {
   padding: 0;
 }
 
-.blue-ball {
+.blue-ball-1 {
   background-image: url(../chatTalker_images/ball01.svg);
   background-repeat: no-repeat;
   width: 160px;
@@ -358,9 +366,35 @@ a:hover {
   position: absolute;
 }
 
-.blue-ball-1 {
-  width: 360px;
-  height: 360px;
+@media (max-width: 568px) {
+  .blue-ball-1 {
+    width: 80px;
+    background-size: 160px;
+    top: 900px;
+  }
+}
+.blue-ball-2 {
+  background-image: url(../chatTalker_images/ball02.svg);
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 320px;
+  background-position: top left;
+  position: absolute;
+  right: 0;
+  top: 1600px;
+  z-index: -99;
+}
+
+.yellow-ball {
+  background-image: url(../chatTalker_images/ball03.svg);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  background-position: top left;
+  position: absolute;
+  left: 100px;
+  top: 2700px;
+  z-index: -99;
 }
 
 .index-header-banner {
@@ -371,6 +405,26 @@ a:hover {
   z-index: -2;
 }
 
+@media (max-width: 568px) {
+  .index-all-text {
+    width: 100%;
+    padding-top: 0;
+    padding-left: 20px;
+  }
+  .index-img {
+    width: 100%;
+    padding: 30px;
+    background-image: url(/chatTalker_images/bg_home_sm.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .index-header-banner {
+    display: none;
+  }
+  .header-box .row {
+    flex-direction: column;
+  }
+}
 .medias, .roles, .comments {
   max-width: 1088px;
   padding: 0;
@@ -401,6 +455,11 @@ a:hover {
   margin: 0;
 }
 
+@media (max-width: 568px) {
+  .medias .row {
+    flex-direction: column;
+  }
+}
 .role-text {
   font-size: 20px;
   color: #221E1F;
@@ -430,6 +489,11 @@ a:hover {
   margin-left: 16px;
 }
 
+@media (max-width: 568px) {
+  .roles .row {
+    flex-direction: column;
+  }
+}
 .points {
   max-width: 1088px;
   margin-top: 100px;
@@ -474,6 +538,25 @@ a:hover {
   padding-left: 100px;
 }
 
+@media (max-width: 568px) {
+  .points {
+    flex-direction: column-reverse;
+  }
+  .row-cols-2 {
+    width: 100%;
+  }
+  .point-box4 {
+    width: 230px;
+    height: 280px;
+  }
+  .points-padding {
+    padding: 0;
+    text-align: center;
+  }
+  .plan-btn {
+    margin: 0 auto;
+  }
+}
 .comment-text {
   border-bottom: solid #DDDDDD 1px;
   padding-bottom: 30px;

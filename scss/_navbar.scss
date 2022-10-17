@@ -8,9 +8,22 @@
     max-width: 1088px;
     margin: 24px auto;
     z-index: 99;
+    padding-bottom: 15px;
+    padding-right: 15px;
 }
+
+@include mobile {
+    .navbar{
+        border-bottom: 1px solid #FFD153;
+        // padding-bottom: 15px;
+        // padding-right: 15px;
+    }
+}
+
 .logo{
-    @include box-size(218px,40px);
+    // @include box-size(218px,40px);
+    max-width: 218px;
+    height: 40px;
 }
 .pay-btn{
     background-color: $red-btn;
