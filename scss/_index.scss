@@ -29,6 +29,7 @@
 .move-banner{
     position: relative;
     display: flex;
+    top:-20px;
     justify-content: end;
     max-width: 1600px;
 }
@@ -93,7 +94,7 @@
     .index-img{
         width: 100%;
         padding: 30px;
-        background-image: url(/chatTalker_images/bg_home_sm.svg);
+        background-image: url(../chatTalker_images/bg_home_sm.svg);
         background-repeat: no-repeat;
         background-position: bottom;
     }
