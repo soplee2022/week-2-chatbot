@@ -236,7 +236,7 @@ a:hover {
   background-position: center center;
   background-size: cover;
   display: inline-block;
-  background-image: url(/chatTalker_images/icon_check.svg);
+  background-image: url(../chatTalker_images/icon_check.svg);
   margin-right: 10px;
 }
 
@@ -297,7 +297,7 @@ a:hover {
   background-position: center center;
   background-size: cover;
   display: inline-block;
-  background-image: url(/chatTalker_images/icon_plus.svg);
+  background-image: url(../chatTalker_images/icon_plus.svg);
 }
 
 .answer {
